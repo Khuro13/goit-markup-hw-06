@@ -516,8 +516,8 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" data-modal-close>
-          <svg class="close-button" width="17" height="17">
-            <use href="./images/spritebut.svg#icon-Vector"></use>
+          <svg class="close-button" width="11" height="11">
+            <use href="./images/spritebut.svg#icon-close-modal"></use>
           </svg>
         </button>
         <span class="modal-title">Оставьте свои данные, мы вам перезвоним</span>
@@ -563,12 +563,15 @@
             ></textarea>
             <span class="form-comment-label">Комментарий</span>
           </label>
-          <label class="form-field-box">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
+          <label class="form-field-mark">
+            <input class="checkbox" type="checkbox" name="checkbox" />
+            <span class="icon-mark"></span>
+            <span class="text-mark"
+              >Соглашаюсь с рассылкой и принимаю
+              <a class="terms-link" href>Условия договора</a></span
+            >
           </label>
-          <button></button>
+          <button class="button button-modal" type="submit">Отправить</button>
         </form>
       </div>
     </div>
